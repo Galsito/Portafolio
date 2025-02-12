@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #F9F9F9; /* Fondo suave */
-    color: #555555; /* Texto gris oscuro */
+    background-color: #F9F9F9;
+    color: #555555;
 }
 
 header {
-    background: #1E3A5F; /* Azul oscuro */
+    background: #1E3A5F;
     color: #fff;
     padding: 40px 0;
     text-align: center;
@@ -50,12 +50,12 @@ section {
     max-width: 800px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd; /* Borde sutil */
+    border: 1px solid #ddd;
     border-radius: 10px;
 }
 
 h2 {
-    color: #1E3A5F; /* Azul oscuro para títulos */
+    color: #1E3A5F;
 }
 
 .skills-container {
@@ -94,7 +94,7 @@ ul li {
 
 ul li i {
     font-size: 1.2em;
-    color: #007BFF; /* Azul brillante para íconos */
+    color: #007BFF;
 }
 
 .contact-container {
@@ -108,10 +108,13 @@ ul li i {
 .contact-container .info-box {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .contact-container a {
-    color: #007BFF; /* Azul brillante para enlaces */
+    color: #007BFF;
     text-decoration: none;
     font-weight: bold;
 }
@@ -120,9 +123,14 @@ ul li i {
     text-decoration: underline;
 }
 
+.contact-container i {
+    font-size: 1.5em;
+    color: #1E3A5F;
+}
 
+/* Estilos para el enlace de descarga */
 a.download-link {
-    color: #28A745; /* Verde*/
+    color: #28A745; /* Verde fresco */
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
@@ -139,7 +147,7 @@ a.download-link:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background: #1E3A5F; /* Azul oscuro */
+    background: #1E3A5F;
     color: #fff;
     width: 100%;
 }
